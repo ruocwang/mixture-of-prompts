@@ -1,0 +1,12 @@
+{
+    "task": "antonyms",
+    "random_proj": "uniform",
+    "intrinsic_dim": 10,
+    "n_prompt_tokens": 5,
+    "HF_cache_dir": "lmsys/vicuna-13b-v1.3",
+    "seed": 0,
+    "alpha": 1.0,
+    "beta": 3.0,
+    "api_model": "chatgpt",
+    "model_name": "vicuna"
+}

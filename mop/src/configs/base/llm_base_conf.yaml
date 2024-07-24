@@ -1,0 +1,46 @@
+generation:
+  num_subsamples: 3
+  num_demos: 5
+  num_prompts_per_subsample: 30
+  split: gen
+  model:
+    name: GPT_forward
+    batch_size: 500
+    gpt_config:
+      model: gpt-3.5-turbo-instruct-0914
+      temperature: 0.9
+      max_tokens: 50
+      top_p: 0.9
+      frequency_penalty: 0.0
+      presence_penalty: 0.0
+evaluation:
+  num_samples: 30
+  num_few_shot: 25 # 5
+  threshold: False # if True, then query the closest eval demos given the expert if eval samples is lower than pre-defined eval_num_samples
+  split: eval
+  add_icls: False # if True, then add icl when evaluating the pool of generated intructions i.e., when selecting top-k instructions
+  model:
+    name: GPT_forward
+    batch_size: 20
+    gpt_config:
+      model: gpt-3.5-turbo-instruct-0914
+      temperature: 0.0
+      max_tokens: 400
+      top_p: 1.0
+      frequency_penalty: 0.0
+      presence_penalty: 0.0
+prompt_assignment:
+  num_samples: 30
+  num_few_shot: 25 # 5
+  split: eval
+  add_icls: False
+  model:
+    name: GPT_forward
+    batch_size: 20
+    gpt_config:
+      model: gpt-3.5-turbo-instruct-0914
+      temperature: 0.0
+      max_tokens: 400
+      top_p: 1.0
+      frequency_penalty: 0.0
+      presence_penalty: 0.0
