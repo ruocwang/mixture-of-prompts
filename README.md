@@ -8,16 +8,15 @@
 ![Super-Nature-Instruction](https://img.shields.io/badge/Benchmark-SuperNature--Instruction-blue)
 
 This repository contains the official implementation of our [MoP](https://arxiv.org/abs/), accepted by ICML 2024.
-> [**One Prompt is not Enough: Automated Construction of a Mixture-of-Expert Prompts**](https://arxiv.org/abs/)<br>
-> Presented by **[TurningPoint AI](https://www.turningpoint-ai.com/) - UCLA - UMD - PSU - KAIST**<br>
+> [**[ICML 2024] One Prompt is not Enough: Automated Construction of a Mixture-of-Expert Prompts**](https://arxiv.org/abs/)<br>
 > Authors: 
 > [Ruochen Wang*](https://ruocwang.github.io/), 
 > [Sohyun An*](https://cownowan.github.io/),
 > [Minhao Cheng](https://cmhcbb.github.io/),
 > [Tianyi Zhou](https://tianyizhou.github.io/),
 > [Sung Ju Hwang](http://www.sungjuhwang.com/),
-> [Cho-Jui Hsieh](https://web.cs.ucla.edu/~chohsieh/)
-
+> [Cho-Jui Hsieh](https://web.cs.ucla.edu/~chohsieh/)<br>
+> Presented by **[TurningPoint AI](https://www.turningpoint-ai.com/) - UCLA - UMD - PSU - KAIST**
 
 
 
