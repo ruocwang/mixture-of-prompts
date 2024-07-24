@@ -1,5 +1,12 @@
 ## One Prompt is not Enough: Automated Construction of a Mixture-of-Expert Prompts - ICML 2024
 
+![Prompt Optimization](https://img.shields.io/badge/Task-Prompt--Optimization-red)
+![Mixture-Of-Experts](https://img.shields.io/badge/Method-Mixture--Of--Experts-red)
+![GPT-3.5](https://img.shields.io/badge/Model-GPT--3.5-green)<br>
+![Big-Bench-Hard](https://img.shields.io/badge/Benchmark-Big--Bench--Hard-blue)
+![Instruction-Induction](https://img.shields.io/badge/Benchmark-Instruct--Induction-blue)
+![Super-Nature-Instruction](https://img.shields.io/badge/Benchmark-SuperNature--Instruction-blue)
+
 This repository contains the official implementation of our [MoP](https://arxiv.org/abs/), accepted by ICML 2024.
 > [**One Prompt is not Enough: Automated Construction of a Mixture-of-Expert Prompts**](https://arxiv.org/abs/)<br>
 > Presented by **[TurningPoint AI](https://www.turningpoint-ai.com/) - UCLA - UMD - PSU - KAIST**<br>
@@ -36,9 +43,11 @@ Mixture-of-Prompts (MoP) is the first **prompt optimization framework** that ext
 All commands are stored in `scripts/install_env.sh`. If you wish to run InstructZero (iz), run the following installation script as well `scripts/install_env_iz.sh`.
 
 **2. OpenAI account**
+
 Our experiments are conducted using `gpt-3.5-turbo-instruct` model from OpenAI. To use OpenAI API services, you can set the OpenAI Key in `scripts/run.sh` file.
 
 **3. Download benchmarks**
+
 Our experiments are conducted on Instruction Induction Benchmark, SuperNature Instruction Benchmark and Big-Bench Hard. Your can download our preprocessed data files [HERE](https://drive.google.com/drive/folders/1Xeja0HYPONy513LL1gU7u6s9DXxjhWfK?usp=sharing), and place them at `mop/benchmarks/` (for example `mop/benchmarks/superni`)
 
 
@@ -70,13 +79,13 @@ Below are the key fields inside `run.sh`:
 ### SuperNature Instruction Benchmark
 
 ```bash
-bash run.sh --method mop --benchmark sni --datasets 24
+bash run.sh --method mop --benchmark sni --datasets 0-19
 ```
 
 ### Big-Bench Hard
 
 ```bash
-bash run.sh --method mop --benchmark bbh --datasets 2
+bash run.sh --method mop --benchmark bbh --datasets 0-9
 ```
 
 
