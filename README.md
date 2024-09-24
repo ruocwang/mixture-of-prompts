@@ -7,8 +7,8 @@
 ![Instruction-Induction](https://img.shields.io/badge/Benchmark-Instruct--Induction-blue)
 ![Super-Nature-Instruction](https://img.shields.io/badge/Benchmark-SuperNature--Instruction-blue)
 
-This repository contains the official implementation of our [MoP]([https://arxiv.org/abs/](https://arxiv.org/abs/2407.00256)), accepted by ICML 2024.
-> [**[ICML 2024] One Prompt is not Enough: Automated Construction of a Mixture-of-Expert Prompts**]([https://arxiv.org/abs/](https://arxiv.org/abs/2407.00256))<br>
+This repository contains the official implementation of our [MoP](https://arxiv.org/abs/2407.00256), accepted by ICML 2024.
+> [**[ICML 2024] One Prompt is not Enough: Automated Construction of a Mixture-of-Expert Prompts**](https://arxiv.org/abs/2407.00256)<br>
 > Authors: 
 > [Ruochen Wang*](https://ruocwang.github.io/), 
 > [Sohyun An*](https://cownowan.github.io/),
